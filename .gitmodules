@@ -1,0 +1,6 @@
+[submodule "my_plugins/vim-highlightedyank"]
+	path = my_plugins/vim-highlightedyank
+	url = git@github.com:Michael1015198808/vim-highlightedyank.git
+[submodule "my_plugins/vim-peekaboo"]
+	path = my_plugins/vim-peekaboo
+	url = git@github.com:Michael1015198808/vim-peekaboo.git

@@ -9,7 +9,23 @@ silent! unmap 0
 
 map <leader>l :set invcursorline<cr>
 
-highlight Search ctermfg=cyan
-highlight Search guifg  =cyan
-highlight Search ctermbg=black
-highlight Search guibg  =black
+highlight Search ctermfg=white
+highlight Search guifg  =white
+highlight Search ctermbg=darkmagenta
+highlight Search guibg  =darkmagenta
+
+" Plugins:
+"    -> vim-highlightedyank
+"    -> vim-peekaboo
+
+
+""""""""""""""""""""""""""""""
+" => vim-highlightedyank
+"""""""""""""""""""""""""""""""
+let g:highlightedyank_highlight_duration = 100
+highlight HighlightedyankRegion cterm=reverse gui=reverse
+
+
+""""""""""""""""""""""""""""""
+" => vim-peekaboo
+"""""""""""""""""""""""""""""""
